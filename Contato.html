@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO</title>
+    <style>
+        *{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        body{background-color: rgb(205, 212, 218);}
+        a:link {color: black; text-decoration: none;}
+        a:visited {color: rgb(70, 12, 124); }
+        a:hover {color: #ff00b3;}
+        ul{
+            position: fixed;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: rgb(226, 148, 222);
+            font-size: x-large;}
+       
+        li a {
+            color: black; 
+            display: block;
+            text-align:center;
+            padding: 15px 35px;
+            text-decoration: none; }
+        li a:hover{
+            background-color: rgb(223, 47, 129);
+            color: black;
+             }
+        h1{
+            background-color: rgb(226, 148, 222);
+            text-align: center;}
+        p{
+            border: 3px double black;
+            width: 100%;
+            height: 100px;
+            padding: 100px;
+            max-width: 500px;
+            color: blueviolet;
+            text-align: center;
+            font-size: xx-large;
+            position: fixed;
+            left: 700px;
+        }
+        form{ /*Estilização do formulário, define tamanho, posição, tamanho da letra*/
+            position: relative;
+            left: 550px;
+            top: 450px;
+            font-size: large;
+            background-color: rgb(205, 212, 218);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1> PORTFÓLIO PESSOAL - MARCELLE SUSANNE SANTOS FRANÇA</h1>
+    <p> Precisa entrar em contato comigo? Preencha o formulário abaixo!</p>
+    <ul>
+        <li><a href="Trabalho.html">Home</a></li>
+        <li><a href="Sobremim.html">Sobre mim</a></li>
+        <li><a href="Formacao.html">Formação</a></li>
+        <li><a href="Portfolio.html">Portfólio</a></li>
+        <li><a href="Contato.html">Contato</a></li>
+    </ul>
+    <form action="" method=""> <!--Formulário de contato. Funções input permitem que o usuário insira caracteres-->
+        <table>
+            <tr>
+                <th> <label for="Nome">Nome:</label></th>
+                <td><input type="text" name="Nome" id="Nome"></td>
+            </tr>
+            <tr>
+                <th><label for="E-mail">E-mail:</label></th>
+                <td><input type="text" name="E-mail" id="E=mail"></td>
+            </tr>
+            <tr>
+                <th><label for="mensagem">Digite sua mensagem:</label></th>
+                <td><textarea name="mensagem" rows="5" cols="100">Digite sua mensagem aqui</textarea></td> <!--Rows e cols definem o tamanho da área de texto-->
+            </tr>
+            <tr>
+                <td></td>
+                <td><button>Enviar!</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

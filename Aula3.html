@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos Aula 3</title>
+    <style>
+        a:link {color: rgb(12, 68, 119); text-decoration: none;}
+        a:visited {color: rgb(70, 12, 124); }
+        a:hover {color: #ff00b3;}
+        input :checked{color: rgb(34, 214, 34);}
+        .primeiro::before{content: url( 'https://ciclovivo.com.br/wp-content/uploads/2018/10/iStock-536613027.jpg');}
+        .segundo::first-letter{color: blueviolet; font-size: larger;}
+        ::marker{color: rgb(212, 92, 186);font-size: large;}
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: aliceblue;}
+        li a {
+            display: block;
+            color: black; 
+            padding: 10px 25px;
+            text-decoration: none; }
+        li a:hover{
+            background-color: azure;
+            color: black;}
+        .proximo{
+            float: left;
+            display: block;
+            text-align: center;}
+        img{
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="TesteCSS.html">Sobre mim</a></li>
+        <li>Formação</li>
+        <li>Contato</li>
+    </ul>
+    <a href="https://gal.riograndedonorte.sus.gov.br/laboratorio/">GAL</a>
+    <a href="http://portalrh.saude.rn.gov.br/MEUPORTALRH/Formularios/Prin">MeuRH</a>
+    <p class="primeiro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita recusandae molestias quasi ratione illum voluptas, ducimus harum. Ex incidunt voluptatem nisi voluptatibus vero fuga dolorum in praesentium necessitatibus. Veniam, optio.
+    <p class="segundo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nesciunt recusandae perferendis ipsa corporis asperiores in. Cumque quidem minima voluptate repellat, ex ratione minus id quos, rerum totam, ipsum temporibus.</p>
+    <ul>
+        <li class="proximo"><a href="index.html">PRIMEIRO</a></li>
+        <li class="proximo"><a href="TesteCSS.html">SEGUNDO</a></li>
+    </ul>
+    <img src="https://t.ctcdn.com.br/JlHwiRHyv0mTD7GfRkIlgO6eQX8=/640x360/smart/i257652.jpeg" alt="Arara">
+    
+</body>
+</html>
